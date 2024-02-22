@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="scriptCrono.js" defer></script>
+    <link rel="stylesheet" href="estiloCrono.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <main>
+        <div class="circulo">
+            <div id="pararCrono" class="pararCrono">00:00</div>
+            <div class="bontones">
+                <div class="parar" onclick="stop()"></div>
+                <div id="iniciar-pausar" class="pausado" onclick="playPause()"></div>
+            </div>
+        </div>
+        <div id="segundos-esfera" class="segundos-esfera"></div>
+    </main>
+</body>
+</html>
